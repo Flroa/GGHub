@@ -1,0 +1,667 @@
+--[ By FloraFlowerr ]--
+
+local GGHub = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local ScriptHolder11 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local NotDone = Instance.new("TextButton")
+local ScriptHolder10 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Respawn = Instance.new("TextButton")
+local ScriptHolder9 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TrollingGui = Instance.new("TextButton")
+local ScriptHolder8 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local NotDone_2 = Instance.new("TextButton")
+local ScriptHolder7 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local NotDone_3 = Instance.new("TextButton")
+local ScriptHolder6 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local NotDone_4 = Instance.new("TextButton")
+local ScriptHolder5 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local R15 = Instance.new("TextButton")
+local ScriptHolder4 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local R6 = Instance.new("TextButton")
+local ScriptHolder3 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Fling = Instance.new("TextButton")
+local ScriptHolder2 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local ScriptHolder1 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local NotDone_5 = Instance.new("TextButton")
+local ScriptHolder = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local Loader = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local Frame_5 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local Frame_6 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local Frame_7 = Instance.new("Frame")
+local Frame_8 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+
+--Properties:
+ScreenGui = game.CoreGui
+
+GGHub.Name = "GGHub"
+GGHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+GGHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = GGHub
+MainFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+MainFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainFrame.Position = UDim2.new(0.619324803, 0, 0.588452101, 0)
+MainFrame.Size = UDim2.new(0, 596, 0, 326)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+Frame.Parent = MainFrame
+Frame.BackgroundColor3 = Color3.fromRGB(54, 175, 46)
+Frame.Position = UDim2.new(0.392617464, 0, 0.31595099, 0)
+Frame.Size = UDim2.new(0, 127, 0, 120)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Frame_2.Position = UDim2.new(0.102362201, 0, 0.0833333358, 0)
+Frame_2.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Frame_2
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(-0.129999995, 0, 0.430000007, 0)
+Frame_3.Size = UDim2.new(0, 127, 0, 10)
+
+Frame_4.Parent = Frame_2
+Frame_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.460000008, 0, -0.100000001, 0)
+Frame_4.Size = UDim2.new(0, 10, 0, 120)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Size = UDim2.new(0, 127, 0, 53)
+TextLabel.Font = Enum.Font.PatrickHand
+TextLabel.Text = "GGHub"
+TextLabel.TextColor3 = Color3.fromRGB(27, 128, 150)
+TextLabel.TextSize = 70.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(217, 210, 5)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.Position = UDim2.new(-0.00787401572, 0, 0.733333349, 0)
+TextLabel_2.Size = UDim2.new(0, 127, 0, 32)
+TextLabel_2.Font = Enum.Font.PatrickHand
+TextLabel_2.Text = "Verison"
+TextLabel_2.TextColor3 = Color3.fromRGB(217, 210, 5)
+TextLabel_2.TextSize = 50.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(-0.00787401572, 0, 0.524999976, 0)
+TextLabel_3.Size = UDim2.new(0, 127, 0, 25)
+TextLabel_3.Font = Enum.Font.PatrickHand
+TextLabel_3.Text = "Melon"
+TextLabel_3.TextColor3 = Color3.fromRGB(217, 210, 5)
+TextLabel_3.TextSize = 50.000
+TextLabel_3.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = Frame
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = MainFrame
+
+TextLabel_4.Parent = MainFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0, 553, 0, 38)
+TextLabel_4.Font = Enum.Font.LuckiestGuy
+TextLabel_4.Text = "MainFrame"
+TextLabel_4.TextColor3 = Color3.fromRGB(82, 156, 97)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ScriptHolder11.Name = "ScriptHolder 11"
+ScriptHolder11.Parent = MainFrame
+ScriptHolder11.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder11.BorderSizePixel = 0
+ScriptHolder11.Position = UDim2.new(0.0151006877, 0, 0.838213861, 0)
+ScriptHolder11.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = ScriptHolder11
+
+NotDone.Name = "Not Done"
+NotDone.Parent = ScriptHolder11
+NotDone.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotDone.BackgroundTransparency = 1.000
+NotDone.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+NotDone.Size = UDim2.new(0, 133, 0, 39)
+NotDone.Font = Enum.Font.PatrickHand
+NotDone.Text = "Not Done"
+NotDone.TextColor3 = Color3.fromRGB(116, 179, 115)
+NotDone.TextScaled = true
+NotDone.TextSize = 60.000
+NotDone.TextWrapped = true
+
+ScriptHolder10.Name = "ScriptHolder 10"
+ScriptHolder10.Parent = MainFrame
+ScriptHolder10.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder10.BorderSizePixel = 0
+ScriptHolder10.Position = UDim2.new(0.755033612, 0, 0.838213861, 0)
+ScriptHolder10.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = ScriptHolder10
+
+Respawn.Name = "Respawn"
+Respawn.Parent = ScriptHolder10
+Respawn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Respawn.BackgroundTransparency = 1.000
+Respawn.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+Respawn.Size = UDim2.new(0, 133, 0, 39)
+Respawn.Font = Enum.Font.PatrickHand
+Respawn.Text = "Respawn"
+Respawn.TextColor3 = Color3.fromRGB(116, 179, 115)
+Respawn.TextSize = 60.000
+Respawn.TextWrapped = true
+Respawn.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tsgWre91",true))()
+end)
+
+ScriptHolder9.Name = "ScriptHolder 9"
+ScriptHolder9.Parent = MainFrame
+ScriptHolder9.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder9.BorderSizePixel = 0
+ScriptHolder9.Position = UDim2.new(0.758389294, 0, 0.681772113, 0)
+ScriptHolder9.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = ScriptHolder9
+
+TrollingGui.Name = "TrollingGui"
+TrollingGui.Parent = ScriptHolder9
+TrollingGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TrollingGui.BackgroundTransparency = 1.000
+TrollingGui.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+TrollingGui.Size = UDim2.new(0, 133, 0, 39)
+TrollingGui.Font = Enum.Font.PatrickHand
+TrollingGui.Text = "TrollIng"
+TrollingGui.TextColor3 = Color3.fromRGB(116, 179, 115)
+TrollingGui.TextSize = 60.000
+TrollingGui.TextWrapped = true
+TrollingGui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/BfHHHNMp",true))()
+end)
+
+ScriptHolder8.Name = "ScriptHolder 8"
+ScriptHolder8.Parent = MainFrame
+ScriptHolder8.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder8.BorderSizePixel = 0
+ScriptHolder8.Position = UDim2.new(0.018456392, 0, 0.681772113, 0)
+ScriptHolder8.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_7.CornerRadius = UDim.new(0, 10)
+UICorner_7.Parent = ScriptHolder8
+
+NotDone_2.Name = "Not Done"
+NotDone_2.Parent = ScriptHolder8
+NotDone_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotDone_2.BackgroundTransparency = 1.000
+NotDone_2.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+NotDone_2.Size = UDim2.new(0, 133, 0, 39)
+NotDone_2.Font = Enum.Font.PatrickHand
+NotDone_2.Text = "Not Done"
+NotDone_2.TextColor3 = Color3.fromRGB(116, 179, 115)
+NotDone_2.TextScaled = true
+NotDone_2.TextSize = 60.000
+NotDone_2.TextWrapped = true
+
+ScriptHolder7.Name = "ScriptHolder 7"
+ScriptHolder7.Parent = MainFrame
+ScriptHolder7.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder7.BorderSizePixel = 0
+ScriptHolder7.Position = UDim2.new(0.018456392, 0, 0.482385576, 0)
+ScriptHolder7.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = ScriptHolder7
+
+NotDone_3.Name = "Not Done"
+NotDone_3.Parent = ScriptHolder7
+NotDone_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotDone_3.BackgroundTransparency = 1.000
+NotDone_3.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+NotDone_3.Size = UDim2.new(0, 133, 0, 39)
+NotDone_3.Font = Enum.Font.PatrickHand
+NotDone_3.Text = "Not Done"
+NotDone_3.TextColor3 = Color3.fromRGB(116, 179, 115)
+NotDone_3.TextScaled = true
+NotDone_3.TextSize = 60.000
+NotDone_3.TextWrapped = true
+
+ScriptHolder6.Name = "ScriptHolder 6"
+ScriptHolder6.Parent = MainFrame
+ScriptHolder6.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder6.BorderSizePixel = 0
+ScriptHolder6.Position = UDim2.new(0.018456392, 0, 0.313673913, 0)
+ScriptHolder6.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = ScriptHolder6
+
+NotDone_4.Name = "Not Done"
+NotDone_4.Parent = ScriptHolder6
+NotDone_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotDone_4.BackgroundTransparency = 1.000
+NotDone_4.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+NotDone_4.Size = UDim2.new(0, 133, 0, 39)
+NotDone_4.Font = Enum.Font.PatrickHand
+NotDone_4.Text = "Not Done"
+NotDone_4.TextColor3 = Color3.fromRGB(116, 179, 115)
+NotDone_4.TextScaled = true
+NotDone_4.TextSize = 60.000
+NotDone_4.TextWrapped = true
+
+ScriptHolder5.Name = "ScriptHolder 5"
+ScriptHolder5.Parent = MainFrame
+ScriptHolder5.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder5.BorderSizePixel = 0
+ScriptHolder5.Position = UDim2.new(0.755033553, 0, 0.482385576, 0)
+ScriptHolder5.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_10.CornerRadius = UDim.new(0, 10)
+UICorner_10.Parent = ScriptHolder5
+
+R15.Name = "R15"
+R15.Parent = ScriptHolder5
+R15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+R15.BackgroundTransparency = 1.000
+R15.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+R15.Size = UDim2.new(0, 133, 0, 39)
+R15.Font = Enum.Font.PatrickHand
+R15.Text = "R15"
+R15.TextColor3 = Color3.fromRGB(116, 179, 115)
+R15.TextSize = 60.000
+R15.TextWrapped = true
+R15.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/M6LhRQUy",true))()
+end)
+
+ScriptHolder4.Name = "ScriptHolder 4"
+ScriptHolder4.Parent = MainFrame
+ScriptHolder4.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder4.BorderSizePixel = 0
+ScriptHolder4.Position = UDim2.new(0.755033553, 0, 0.313673943, 0)
+ScriptHolder4.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_11.CornerRadius = UDim.new(0, 10)
+UICorner_11.Parent = ScriptHolder4
+
+R6.Name = "R6"
+R6.Parent = ScriptHolder4
+R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+R6.BackgroundTransparency = 1.000
+R6.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+R6.Size = UDim2.new(0, 133, 0, 39)
+R6.Font = Enum.Font.PatrickHand
+R6.Text = "R6"
+R6.TextColor3 = Color3.fromRGB(116, 179, 115)
+R6.TextSize = 60.000
+R6.TextWrapped = true
+R6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/e2GzxYjD",true))()
+end)
+
+ScriptHolder3.Name = "ScriptHolder 3"
+ScriptHolder3.Parent = MainFrame
+ScriptHolder3.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder3.BorderSizePixel = 0
+ScriptHolder3.Position = UDim2.new(0.755033553, 0, 0.151097253, 0)
+ScriptHolder3.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_12.CornerRadius = UDim.new(0, 10)
+UICorner_12.Parent = ScriptHolder3
+
+Fling.Name = "Fling"
+Fling.Parent = ScriptHolder3
+Fling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fling.BackgroundTransparency = 1.000
+Fling.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+Fling.Size = UDim2.new(0, 133, 0, 39)
+Fling.Font = Enum.Font.PatrickHand
+Fling.Text = "Fling"
+Fling.TextColor3 = Color3.fromRGB(116, 179, 115)
+Fling.TextSize = 60.000
+Fling.TextWrapped = true
+Fling.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/B9G4qHGy",true))()
+end)
+
+ScriptHolder2.Name = "ScriptHolder 2"
+ScriptHolder2.Parent = MainFrame
+ScriptHolder2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder2.BorderSizePixel = 0
+ScriptHolder2.Position = UDim2.new(0.380872458, 0, 0.151097253, 0)
+ScriptHolder2.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_13.CornerRadius = UDim.new(0, 10)
+UICorner_13.Parent = ScriptHolder2
+
+Noclip.Name = "Noclip"
+Noclip.Parent = ScriptHolder2
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.BackgroundTransparency = 1.000
+Noclip.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+Noclip.Size = UDim2.new(0, 133, 0, 39)
+Noclip.Font = Enum.Font.PatrickHand
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(116, 179, 115)
+Noclip.TextSize = 60.000
+Noclip.TextWrapped = true
+Noclip.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScripts52/noclip/main/noclip.lua",true))()
+end)
+
+ScriptHolder1.Name = "ScriptHolder 1"
+ScriptHolder1.Parent = MainFrame
+ScriptHolder1.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder1.BorderSizePixel = 0
+ScriptHolder1.Position = UDim2.new(0.0184563398, 0, 0.151097253, 0)
+ScriptHolder1.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_14.CornerRadius = UDim.new(0, 10)
+UICorner_14.Parent = ScriptHolder1
+
+NotDone_5.Name = "Not Done"
+NotDone_5.Parent = ScriptHolder1
+NotDone_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotDone_5.BackgroundTransparency = 1.000
+NotDone_5.Position = UDim2.new(0, 0, -4.76837158e-07, 0)
+NotDone_5.Size = UDim2.new(0, 133, 0, 39)
+NotDone_5.Font = Enum.Font.PatrickHand
+NotDone_5.Text = "Not Done"
+NotDone_5.TextColor3 = Color3.fromRGB(116, 179, 115)
+NotDone_5.TextScaled = true
+NotDone_5.TextSize = 60.000
+NotDone_5.TextWrapped = true
+
+ScriptHolder.Name = "ScriptHolder"
+ScriptHolder.Parent = MainFrame
+ScriptHolder.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHolder.BorderSizePixel = 0
+ScriptHolder.Position = UDim2.new(0.380872458, 0, 0.838213801, 0)
+ScriptHolder.Size = UDim2.new(0, 133, 0, 41)
+
+UICorner_15.CornerRadius = UDim.new(0, 10)
+UICorner_15.Parent = ScriptHolder
+
+Fly.Name = "Fly"
+Fly.Parent = ScriptHolder
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.BackgroundTransparency = 1.000
+Fly.Position = UDim2.new(0, 0, 0.0487802029, 0)
+Fly.Size = UDim2.new(0, 133, 0, 39)
+Fly.Font = Enum.Font.PatrickHand
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(116, 179, 115)
+Fly.TextSize = 60.000
+Fly.TextWrapped = true
+Fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NF5CWBKB",true))()
+end)
+
+TextButton.Parent = MainFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.9271276, 0, 0.00460124016, 0)
+TextButton.Size = UDim2.new(0, 41, 0, 36)
+TextButton.Font = Enum.Font.GothamSemibold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Loader.Name = "Loader"
+Loader.Parent = GGHub
+Loader.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Loader.Position = UDim2.new(0.00735750794, 0, 0.674447179, 0)
+Loader.Size = UDim2.new(0, 463, 0, 256)
+Loader.Active = true
+Loader.Draggable = true
+
+UICorner_16.CornerRadius = UDim.new(0, 10)
+UICorner_16.Parent = Loader
+
+Frame_5.Parent = Loader
+Frame_5.BackgroundColor3 = Color3.fromRGB(54, 175, 46)
+Frame_5.Position = UDim2.new(0.362379879, 0, 0.26516974, 0)
+Frame_5.Size = UDim2.new(0, 127, 0, 120)
+
+UICorner_17.CornerRadius = UDim.new(0, 10)
+UICorner_17.Parent = Frame_5
+
+Frame_6.Parent = Frame_5
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Frame_6.Position = UDim2.new(0.102362201, 0, 0.0833333358, 0)
+Frame_6.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner_18.CornerRadius = UDim.new(0, 10)
+UICorner_18.Parent = Frame_6
+
+Frame_7.Parent = Frame_6
+Frame_7.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(-0.129999995, 0, 0.430000007, 0)
+Frame_7.Size = UDim2.new(0, 127, 0, 10)
+
+Frame_8.Parent = Frame_6
+Frame_8.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0.460000008, 0, -0.100000001, 0)
+Frame_8.Size = UDim2.new(0, 10, 0, 120)
+
+TextLabel_5.Parent = Frame_5
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Size = UDim2.new(0, 127, 0, 53)
+TextLabel_5.Font = Enum.Font.PatrickHand
+TextLabel_5.Text = "GGHub"
+TextLabel_5.TextColor3 = Color3.fromRGB(27, 128, 150)
+TextLabel_5.TextSize = 70.000
+
+TextLabel_6.Parent = Frame_5
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(217, 210, 5)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(0, 0, 0.733333349, 0)
+TextLabel_6.Size = UDim2.new(0, 127, 0, 32)
+TextLabel_6.Font = Enum.Font.PatrickHand
+TextLabel_6.Text = "Verison"
+TextLabel_6.TextColor3 = Color3.fromRGB(217, 210, 5)
+TextLabel_6.TextSize = 50.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Frame_5
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.Position = UDim2.new(-0.0157480314, 0, 0.524999976, 0)
+TextLabel_7.Size = UDim2.new(0, 127, 0, 25)
+TextLabel_7.Font = Enum.Font.PatrickHand
+TextLabel_7.Text = "Melon"
+TextLabel_7.TextColor3 = Color3.fromRGB(217, 210, 5)
+TextLabel_7.TextSize = 50.000
+TextLabel_7.TextWrapped = true
+
+ScrollingFrame.Parent = Loader
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.140625, 0)
+ScrollingFrame.Size = UDim2.new(0, 463, 0, 220)
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(156, 255, 151)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 451, 0, 22)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "ASSET / SCRIPTS / DESIGEN Have Been Loaded / Warning U Might"
+TextLabel_8.TextColor3 = Color3.fromRGB(104, 191, 100)
+TextLabel_8.TextSize = 20.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_8.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(156, 255, 151)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, 0.04296875, 0)
+TextLabel_9.Size = UDim2.new(0, 451, 0, 22)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Get Banned Since i Havent Added A Bypass"
+TextLabel_9.TextColor3 = Color3.fromRGB(104, 191, 100)
+TextLabel_9.TextSize = 20.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_9.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(156, 255, 151)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0, 0, 0.08984375, 0)
+TextLabel_10.Size = UDim2.new(0, 451, 0, 22)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "AA r6 r15 is brokeen"
+TextLabel_10.TextColor3 = Color3.fromRGB(104, 191, 100)
+TextLabel_10.TextSize = 20.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_10.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_11.Parent = Loader
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.0129589634, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 247, 0, 36)
+TextLabel_11.Font = Enum.Font.PermanentMarker
+TextLabel_11.Text = "LOADER"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+TextButton_2.Parent = Loader
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.911447108, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 41, 0, 36)
+TextButton_2.Font = Enum.Font.GothamSemibold
+TextButton_2.Text = "X"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+-- Scripts:
+
+local function SVNWTT_fake_script() -- TextButton.CloseGuiButtonScript 
+	local script = Instance.new('Script', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(SVNWTT_fake_script)()
+local function EZDWY_fake_script() -- TextButton_2.CloseGuiButtonScript 
+	local script = Instance.new('Script', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(EZDWY_fake_script)()
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Hello Message";
+	Text = "Welcome To GGHub Melon Verison.";
+	Duration = "10";
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Bye Message";
+	Text = "Ok Bye.";
+	Duration = "10";
+})
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "First Time";
+	Text = "F to fly if u die u prob need to re click fly.";
+	Duration = "10";
+})
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Reminder";
+	Text = "F to fly if u die u prob need to re click fly.";
+	Duration = "10";
+})
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Importent";
+	Text = "REEXECUTE THE SCRIPT WHEN U DIE";
+	Duration = "10";
+})
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Importent";
+	Text = "REEXECUTE THE SCRIPT WHEN U DIE";
+	Duration = "10";
+})
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Importent";
+	Text = "REEXECUTE THE SCRIPT WHEN U DIE";
+	Duration = "10";
+})
